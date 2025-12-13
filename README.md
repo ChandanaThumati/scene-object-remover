@@ -102,11 +102,6 @@ python main.py
 
 ## 👩‍💻 Author
 
-Developed by **[Your Name]**
+Developed by **Thumati Sai Manichadnana Devi**
 
----
-
-## 📜 License
-
-This project is intended for **educational purposes**.
 
