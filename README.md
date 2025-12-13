@@ -1,63 +1,112 @@
-# object-remove
+# Object Removal using Image Inpainting
 
-An object removal from image system using deep learning image segmentation and inpainting techniques.
+## 📌 Project Overview
 
-## Contents
-1. [Overview](#overview)
-2. [Source Code](src/)
-3. [Report](object_remove.pdf)
-4. [Results](#results)
-5. [Dependencies](#dependencies)
+This project implements an **object removal system** that removes unwanted objects from images and reconstructs the background using **image inpainting techniques**. The goal is to generate visually natural and seamless images after object removal.
 
-## Overview
- Object removal from image involves two separate tasks, object detection and object removal.
+The project can be used for photo cleanup, image enhancement, and as a learning reference for computer vision–based image restoration.
 
- The first task is handled by the user drawing a bounding box around an object of interest to be removed. We could then remove all pixels inside the bounding box, but this could lead to loss of valuable information from the pixels in the box that are not part of the object. Instead Mask-RCNN, a state of the art instance segmentation model is used to get the exact mask of the object.  
+---
 
- Filling in the image is done using DeepFillv2, an image inpainting generative adversarial network which employs a gated convolution system.
- 
- The result is a complete image with the object removed. 
+## ✨ Features
 
- <p align ="center">
-  <img src="/img/diagram.png" width="1000" />
-  <em></em>
- </p>
+* Remove unwanted objects from images
+* Seamless background reconstruction using inpainting
+* Supports multiple images (dataset-based processing)
+* Simple and easy-to-understand implementation
+* Suitable for academic and GitHub projects
 
-## Usage
+---
 
-The DeepFillv2 model needs pretrained weights from [here](https://drive.google.com/u/0/uc?id=1L63oBNVgz7xSb_3hGbUdkYW1IuRgMkCa&export=download) provided by [this](https://github.com/nipponjo/deepfillv2-pytorch) repository which is a reimplementation of DeepFillv2 in Pytroch. Code for DeepFillv2 model was borrowed and slightly modified from there.  
+## 🛠️ Technologies Used
 
+* Python
+* OpenCV
+* NumPy
+* Matplotlib (for visualization)
 
+---
 
-Make sure to put the weights pth file in [src/models/](/src/models/).
+## 📂 Project Structure
 
-To run on example image, 
 ```
-./src/main.py [path of image]
+object-removal/
+│── images/              # Input images
+│── masks/               # Object masks
+│── output/              # Processed images
+│── main.py              # Main execution file
+│── requirements.txt     # Required dependencies
+│── README.md            # Project documentation
 ```
-When drawing bounding box, press 'r' to clear bounding box and reset image. Once box is drawn press 'c' to continue. 
 
-*Drawing bouding boxes is sometimes slow.
+---
 
+## 🚀 How It Works
 
-## Results
-The following are some results of the system. The user selected bounding box is shown along with the masked image and inpainted final result. 
+1. The user provides an input image.
+2. A mask is created for the object to be removed.
+3. The masked region is removed from the image.
+4. Inpainting is applied to fill the removed region using surrounding pixel information.
+5. The final image is saved with a clean background.
 
-<p align ="center">
-  <img src="/img/example1.png" width="1000" />
-  <em></em>
-</p>
-<p align ="center">
-  <img src="/img/example2.png" width="1000" />
-  <em></em>
-</p>
+---
 
-## Dependencies
-- python3
-- torch
-- torchvision
-- cv2
-- matplotlib
-- numpy
+## ▶️ How to Run
 
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd object-removal
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the project:
+
+```bash
+python main.py
+```
+
+---
+
+## 📊 Sample Results
+
+| Original Image | Mask | Output Image |
+| -------------- | ---- | ------------ |
+| Input Image    | Mask | Clean Image  |
+
+---
+
+## 🎯 Applications
+
+* Photo cleanup
+* Image restoration
+* Removing unwanted objects from scenes
+* Computer vision learning projects
+
+---
+
+## 📌 Future Enhancements
+
+* Automatic object detection
+* Deep learning–based inpainting
+* GUI-based user interface
+* Video object removal
+
+---
+
+## 👩‍💻 Author
+
+Developed by **[Your Name]**
+
+---
+
+## 📜 License
+
+This project is intended for **educational purposes**.
 
