@@ -4,6 +4,9 @@
 
 This project implements an **object removal system** that removes unwanted objects from images and reconstructs the background using **image inpainting techniques**. The goal is to generate visually natural and seamless images after object removal.
 
+Implemented object removal using advanced image inpainting techniques, combining traditional (diffusion and exemplar-based) with modern AI-inspired methods for better realism in complex scenes.
+
+
 The project can be used for photo cleanup, image enhancement, and as a learning reference for computer vision–based image restoration.
 
 ---
