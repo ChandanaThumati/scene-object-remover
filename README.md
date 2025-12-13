@@ -102,6 +102,6 @@ python main.py
 
 ## 👩‍💻 Author
 
-Developed by **Thumati Sai Manichadnana Devi**
+Developed by **Thumati Sai Manichadana Devi**
 
 
