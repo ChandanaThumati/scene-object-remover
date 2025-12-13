@@ -1,6 +1,6 @@
 # Object Removal using Image Inpainting
 
-## 📌 Project Overview
+## Overview
 
 This project implements an **object removal system** that removes unwanted objects from images and reconstructs the background using **image inpainting techniques**. The goal is to generate visually natural and seamless images after object removal.
 
@@ -11,7 +11,7 @@ The project can be used for photo cleanup, image enhancement, and as a learning 
 
 ---
 
-## ✨ Features
+##  Features
 
 * Remove unwanted objects from images
 * Seamless background reconstruction using inpainting
@@ -21,7 +21,7 @@ The project can be used for photo cleanup, image enhancement, and as a learning 
 
 ---
 
-## 🛠️ Technologies Used
+## Used
 
 * Python
 * OpenCV
@@ -30,7 +30,7 @@ The project can be used for photo cleanup, image enhancement, and as a learning 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 object-removal/
@@ -44,7 +44,7 @@ object-removal/
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. The user provides an input image.
 2. A mask is created for the object to be removed.
@@ -54,7 +54,7 @@ object-removal/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -77,7 +77,7 @@ python main.py
 
 ---
 
-## 📊 Sample Results
+## Sample Results
 
 | Original Image | Mask | Output Image |
 | -------------- | ---- | ------------ |
@@ -85,7 +85,7 @@ python main.py
 
 ---
 
-## 🎯 Applications
+## Applications
 
 * Photo cleanup
 * Image restoration
@@ -94,7 +94,7 @@ python main.py
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 * Automatic object detection
 * Deep learning–based inpainting
@@ -103,7 +103,7 @@ python main.py
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 Developed by **Thumati Sai Manichadana Devi**
 
