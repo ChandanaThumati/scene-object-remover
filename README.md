@@ -21,12 +21,14 @@ The project can be used for photo cleanup, image enhancement, and as a learning 
 
 ---
 
-## Used
+## Dependencies
 
-* Python
-* OpenCV
-* NumPy
-* Matplotlib (for visualization)
+•⁠  ⁠python3
+•⁠  ⁠torch
+•⁠  ⁠torchvision
+•⁠  ⁠cv2
+•⁠  ⁠matplotlib
+•⁠  ⁠numpy
 
 ---
 
