@@ -23,12 +23,12 @@ The project can be used for photo cleanup, image enhancement, and as a learning 
 
 ## Dependencies
 
-•⁠  ⁠python3
-•⁠  ⁠torch
-•⁠  ⁠torchvision
-•⁠  ⁠cv2
-•⁠  ⁠matplotlib
-•⁠  ⁠numpy
+*  ⁠python3
+*  ⁠torch
+* torchvision
+* ⁠cv2
+* matplotlib
+* numpy
 
 ---
 
