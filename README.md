@@ -81,9 +81,13 @@ python main.py
 
 ## Sample Results
 
-| Original Image | Mask | Output Image |
-| -------------- | ---- | ------------ |
-| Input Image    | Mask | Clean Image  |
+<img width="640" height="480" alt="test1_results" src="https://github.com/user-attachments/assets/fb50e74f-4e88-4372-ba7c-e94dceee56ff" />
+
+<img width="640" height="480" alt="test2_results" src="https://github.com/user-attachments/assets/ac4c72a9-2b14-453b-8664-9c190f49f239" />
+
+<img width="640" height="480" alt="test3_result" src="https://github.com/user-attachments/assets/06fe325b-6b8b-4666-84d4-9beae3ce108d" />
+
+
 
 ---
 
